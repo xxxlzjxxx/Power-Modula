@@ -1,0 +1,165 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Oct-31-2017 at 11:03:48}
+primitive 'CAP NP_2_CC0603_0.1UF_50V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_2';
+    JEDEC_TYPE='CC0603';
+    VALUE='0.1uF_50V';
+  end_body;
+end_primitive;
+primitive 'CAP NP_3_CC0805_10UF_25V';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP_3';
+    JEDEC_TYPE='CC0805';
+    VALUE='10uF_25V';
+  end_body;
+end_primitive;
+primitive 'LED_4_LED0805_LED_GREEN';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='LED_4';
+    JEDEC_TYPE='LED0805';
+    VALUE='LED_GREEN';
+  end_body;
+end_primitive;
+primitive 'HEADER 6_HEADER6X1_2R00_SMD_HEA';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 6';
+    JEDEC_TYPE='HEADER6X1_2R00_SMD';
+    VALUE='HEADER6X1_2R00_SMD';
+  end_body;
+end_primitive;
+primitive 'IND_BEAD_0805_600OHM_1_LC0805_B';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='IND_BEAD_0805_600OHM_1';
+    JEDEC_TYPE='LC0805';
+    VALUE='BEAD_BLM21PG600';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_RC0603_10R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='RC0603';
+    VALUE='10R';
+  end_body;
+end_primitive;
+primitive 'R_GENERIC_RC0603_2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R_Generic';
+    JEDEC_TYPE='RC0603';
+    VALUE='2K';
+  end_body;
+end_primitive;
+primitive 'SCA830-D07_SCA830-D07_SCA830-D0';
+  pin
+    'NC_1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'NC_2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'AVSS':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'AVDD':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'CSB':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'MISO':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'SCK':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'MOSI':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    'PWM':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    'DVDD':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    'DVSS':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'EGND':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='SCA830-D07';
+    JEDEC_TYPE='SCA830-D07';
+    VALUE='SCA830-D07';
+  end_body;
+end_primitive;
+END.

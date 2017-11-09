@@ -1,0 +1,100 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Oct-31-2017 at 11:03:48 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SCA830D07_V10A';
+ POST_TIME='Feb 15 2016 19:53:59';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_2_CC0603_0.1UF_50V':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16968867@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16968867@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16968867@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_2_CC0603_0.1UF_50V':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16968854@MK60_YTAI_V41B.CAP NP_2.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16968854@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16968854@mk60_ytai_v41b.\cap np_2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_3_CC0805_10UF_25V':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16968903@MK60_ZCYT_V11A.CAP NP_3.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16968903@mk60_zcyt_v11a.\cap np_3.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16968903@mk60_zcyt_v11a.\cap np_3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_4_LED0805_LED_GREEN':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16934856@F543_GPS_V10A.LED_4.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16934856@f543_gps_v10a.\led_4.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16934856@f543_gps_v10a.\led_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'HEADER 6_HEADER6X1_2R00_SMD_HEA':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16966518@CONNECTOR.HEADER 6.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16966518@connector.\header 6.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16966518@connector.\header 6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'IND_BEAD_0805_600OHM_1_LC0805_B':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16969595@MK60_YTAI_V41B.IND_BEAD_0805_600OHM_1.CONVERT(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16969595@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16969595@mk60_ytai_v41b.\ind_bead_0805_600ohm_1.convert\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_GENERIC_RC0603_10R':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16969637@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16969637@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16969637@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_GENERIC_RC0603_2K':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16934879@EMULATION MODULE.R_GENERIC.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16934879@\emulation module\.\r_generic.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16934879@\emulation module\.\r_generic.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'SCA830-D07_SCA830-D07_SCA830-D0':;
+
+SECTION_NUMBER 1
+ '@SCA830D07_V10A.SCHEMATIC1(SCH_1):INS16968823@IC.SCA830-D07.NORMAL(CHIPS)':
+ C_PATH='@sca830d07_v10a.schematic1(sch_1):ins16968823@ic.\sca830-d07.normal\(chips)',
+ P_PATH='@sca830d07_v10a.schematic1(sch_1):page2_ins16968823@ic.\sca830-d07.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
