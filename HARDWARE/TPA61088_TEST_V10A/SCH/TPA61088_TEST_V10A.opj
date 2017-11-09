@@ -35,7 +35,7 @@
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "FALSE")
     (DRC_Report_File
-       "G:\HUIYUAN COMMUNICATION\13云台交换机\CADENCE\SCA830D07_V10A\SCH\SCA830D07_V10A.DRC")
+       "H:\GitHub\Power-Modula\HARDWARE\TPA61088_TEST_V10A\SCH\TPA61088_TEST_V10A.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -65,7 +65,7 @@
     (DRC_Run_Physical_Custom_DRC "FALSE")
     ("Create Allegro Netlist" "TRUE")
     ("Allegro Netlist Directory"
-       "G:\HUIYUAN COMMUNICATION\13云台交换机\CADENCE\SCA830D07_V10A\SCH\ALLEGRO")
+       "H:\GITHUB\POWER-MODULA\HARDWARE\TPA61088_TEST_V10A\SCH\ALLEGRO")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
@@ -98,10 +98,10 @@
     (IREFReportFile
        "G:\HUIYUAN COMMUNICATION\18低成本防外破\CADENCE\SIM8909_TEST_V10A\SCH\SIM8909_TEST_V10A.csv")
     (IREFViewOutput "0")
-    (File ".\sca830d07_v10a.dsn"
+    (File ".\tpa61088_test_v10a.dsn"
       (Type "Schematic Design")))
   (Folder "Outputs"
-    (File ".\sca830d07_v10a.drc"
+    (File ".\tpa61088_test_v10a.drc"
       (Type "Report"))
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -114,6 +114,18 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("CONN FLEX 3"
+      (FullPartName "CONN FLEX 3.Normal")
+      (LibraryName "D:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (TestPoint
+      (FullPartName "TestPoint.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
+      (DeviceIndex "0"))
+    (TPS61088RHLR
+      (FullPartName "TPS61088RHLR.Normal")
+      (LibraryName "E:\CADENCELIB\ORCAD\IC.OLB")
+      (DeviceIndex "0"))
     (SCA830-D07
       (FullPartName "SCA830-D07.Normal")
       (LibraryName "E:\CADENCELIB\ORCAD\IC.OLB")
@@ -197,31 +209,15 @@
       (FullPartName "SIM8909.Normal")
       (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
       (DeviceIndex "0"))
-    (TestPoint
-      (FullPartName "TestPoint.Normal")
-      (LibraryName "E:\CADENCELIB\ORCAD\HYOC.OLB")
-      (DeviceIndex "0"))
     (INDUCTOR
       (FullPartName "INDUCTOR.Normal")
       (LibraryName "E:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
-      (DeviceIndex "0"))
-    (LTC3401EMS
-      (FullPartName "LTC3401EMS.Normal")
-      (LibraryName "E:\CADENCELIB\XXXLZJXXX\XXXLZJXXX.OLB")
-      (DeviceIndex "0"))
-    (TXS0104E
-      (FullPartName "TXS0104E.Normal")
-      (LibraryName "D:\MYSCHPCB\HY_V10\MSP430\MSP430F5438\MYLIB.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\sca830d07_v10a.dsn")
-      (Path "Design Resources" ".\sca830d07_v10a.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\sca830d07_v10a.dsn" "SCHEMATIC1"
-         "02 SCA830D07"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -232,12 +228,12 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1399 52 641")
-        (Scroll "617 958")
-        (Zoom "284")
+        (Scroll "857 1652")
+        (Zoom "236")
         (Occurrence "/"))
       (Path
-         "G:\HUIYUAN COMMUNICATION\13云台交换机\CADENCE\SCA830D07_V10A\SCH\SCA830D07_V10A.DSN")
+         "H:\GITHUB\POWER-MODULA\HARDWARE\TPA61088_TEST_V10A\SCH\TPA61088_TEST_V10A.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "02 SCA830D07")))
+      (Page "02 POWER")))
   (MPSSessionName "Administrator")
   (ISPCBBASICLICENSE "false"))
